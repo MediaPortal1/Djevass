@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DjevassTest</string>
+    <string name="news_title">News number: %s</string>
+</resources>

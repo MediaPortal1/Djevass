@@ -1,0 +1,37 @@
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/wood_repeatbg"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.alexpoltavets.djevasstest.NewsActivity">
+
+    <ImageView
+        android:id="@+id/news_image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bestia_logo"
+        android:layout_below="@+id/news_image_contacts_top"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/news_image_contacts_top"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/top_number"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/news_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_image_logo"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
+</ScrollView>
